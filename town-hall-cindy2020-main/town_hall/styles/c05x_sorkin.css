@@ -1,4 +1,63 @@
+html {
+    background-color: yellow;
+}
+/*  Use of the reset selctor */
+h1, h2, h3, p ul li {
+    margin: 0;
+    padding: 0;
+}
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+    width: 650px;
+    margin: 0 auto 2em;
+    border: 3px double blue;
+    border-width: thick;
+    background-color: white;
+main {
+    padding-right: 2em;
+    padding-left: 2em;
+}
+main h1 {
+    font-size: 150%;
+    color: blue;
+    padding-bottom: .5em;
+}
+main img {
+    float: left;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+main h2 {
+    font-size: 125%;
+    padding-top: .75em;
+    padding-bottom: 0%;
+}
+main h3 {
+    font-size: 115%;
+}
+p.quote {
+    margin: 0;
+}
+p.author { 
+    color: blue; 
+    text-align: right;
+    font-style: normal;
+    padding-bottom: .75em;
+    padding-top: 0;
+}
+main ul {
+    margin-top: .25em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    border-bottom: 3px solid blue;
+}
+ul li {
+    padding-bottom: .25em;
+}
+footer p {
+    text-align: center;
+    font-size: 90%;
+    font-weight: bold;
 }
