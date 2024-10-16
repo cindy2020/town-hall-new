@@ -47,7 +47,7 @@ main {
 section {
 	padding: 0 20px 20px 20px;
 	width: 575px;
-	float: right;	
+	float: left;	
 }
 section h1 {
 	color: #800000;
@@ -62,7 +62,6 @@ section h2 {
 section article {
 	column-count: 2;
 }
-
 article p {
 	padding-bottom: .5em;
 }
@@ -74,7 +73,7 @@ article img {
 }
 aside {
 	width: 215px;
-	float: left;
+	float: right;
 	padding: 0 0 20px 20px;
 }
 aside h2 {
