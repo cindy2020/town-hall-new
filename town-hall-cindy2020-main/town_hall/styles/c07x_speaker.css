@@ -85,7 +85,6 @@ aside h2 {
 	font-size: 130%;
 	padding: .6em 0 .25em 0;
 }
-
 aside h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
@@ -94,6 +93,37 @@ aside img {
 	padding-bottom: 1em;
 }
 
+/* the styles for the list */
+#nav_list ul {
+	list-style-type: none;
+	margin-left: 0;
+	margin-bottom: 1.5em;
+}
+#nav_list ul li {
+	width: 200px;
+	font-size: 90%;
+	font-weight: bold;
+	margin-bottom: .5em;
+	border: 2px solid black;
+	border-radius: 20px;
+	box-shadow: 3px 3px 1px 1px #800000;
+	background-image: url("../images/right.jpg");
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+#nav_list ul li a {
+	display: block;
+	padding: .5em 0 0 .5em;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+#nav_List ul li a.current {
+	color:#800000;
+}
+a:hover, a:focus {
+	color:#800000;
+}
 /* the styles for the footer */
 footer {
 	background-color: #931420;
