@@ -1,3 +1,8 @@
+/* 	Edited by Cindy Ohara
+		CIS 148 - HTML and CSS
+		November 13, 2024 
+*/
+
 /* the styles for the elements */
 * {
 	margin: 0;
@@ -43,7 +48,16 @@ header img {
 main {
 	clear: left;
 }
-
+/* the styles for the rollover image */
+#image1 {
+	background-image: url("../images/sampson_dinosaur.jpg");
+	width: 260px;
+	height: 260px;
+	background-repeat: no-repeat;
+}
+#image1:hover {
+	background-image: url("../images/sorkin_desk260.jpg");
+}
 /* the styles for the section */
 section {
 	width: 575px;
