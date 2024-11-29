@@ -1,3 +1,8 @@
+/* Edited by Cindy Ohara
+   CIS 148
+   November 25, 2024*/
+
+
 /* the styles for the elements */
 * {
 	margin: 0;
@@ -35,6 +40,13 @@ header h3 {
 header img {
 	float: left;
 	padding: 0 30px;
+	animation: bounce .5s ease-in 8 alternate;
+}
+@keyframes bounce {
+	from { padding-left: 30px;
+		   padding-right: 30px;}
+	to   { padding-left: 50px;
+		   padding-right: 30px;}
 }
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
@@ -46,18 +58,18 @@ main {
 
 /* the styles for the section */
 section {
-	width: 575px;
+	width: 65%;
 	float: right;
 	padding: 0 20px 20px 20px;
 }
 section h1 {
 	color: #800000;
 	font-size: 150%;
-	padding-top: .5em;
+	padding-top: 2%;
 	margin: 0;
 }
 section p {
-	padding-bottom: .5em;
+	padding-bottom: 2%;
 }
 
 /* the styles for the article */
@@ -70,14 +82,15 @@ article h2 {
 }
 article img {
 	float: right;
+	width: 50%;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
 }
 
 /* the styles for the aside */
 aside {
-	width: 215px;
-	float: right;
+	width: 50%;
+	/*float: right;*/
 	padding: 0 0 20px 20px;
 }
 aside h2 {
@@ -92,6 +105,39 @@ aside h3 {
 }
 aside img {
 	padding-bottom: 1em;
+}
+/* the styles for the list */
+#nav_list ul {
+	list-style-type: none;
+	margin-left: 0;
+	margin-bottom: 1.5em;
+}
+#nav_list ul li {
+	width: 50%;
+	font-size: 90%;
+	font-weight: bold;
+	margin-bottom: .5em;
+	border: 2px solid black;
+	border-radius: 20px;
+	box-shadow: 3px 3px 1px 1px #800000;
+	background-image: url("../images/right.jpg");
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+#nav_list ul li a {
+	display: block;
+	padding: .5em 0 0 .5em;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+#nav_list ul li a.current {
+	color:#800000;
+}
+a:hover, a:focus {
+	color:#800000;
+	transition: 3s;
+	transform: rotateX(360deg);
 }
 
 /* the styles for the footer */
